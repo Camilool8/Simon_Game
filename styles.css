@@ -6,36 +6,15 @@ body {
 #level-title {
   font-family: "Press Start 2P", cursive;
   font-size: 3.5rem;
-  margin: 130px auto;
+  margin: 150px auto;
   color: #ffffff;
   text-shadow: 1px 1px #000000;
 }
 
 .container {
   width: 60%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* media query for tablet */
-
-@media only screen and (max-width: 1120px) {
-  .container {
-    width: 100%;
-    position: absolute;
-    top: 60%;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .container {
-    width: 100%;
-    position: absolute;
-    top: 85%;
-  }
+  margin: 0 auto;
+  display: block;
 }
 
 .btn {
