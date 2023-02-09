@@ -27,7 +27,7 @@ function nextSequence() {
         .fadeOut(100)
         .fadeIn(100);
       playSound(gamePattern[i]);
-    }, 1000 * i);
+    }, 400 * i);
   }
   level++;
   $("#level-title").text("Level " + level);
